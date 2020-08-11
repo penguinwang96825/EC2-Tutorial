@@ -27,3 +27,11 @@ sudo apt install git
 ```console
 git clone https://github.com/penguinwang96825/Made-with-ML-Incubator-Project.git
 ```
+## Keep Running Python Script
+```console
+tmux new -s mywindow
+```
+Once the new window starts, run your script. Once the script is running, you can close your ssh client or shut down your local computer. When you want to see the results, log in to your ec2 through ssh again, and type this:
+```console
+tmux a -t mywindow
+```
