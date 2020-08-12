@@ -1,6 +1,6 @@
 # EC2-Tutorial
 
-## Create Environment
+## Set Up
 1. Create EC2 instance.
 2. Get pem file.
 ```console
@@ -27,6 +27,14 @@ sudo apt install git
 ```console
 git clone https://github.com/penguinwang96825/Made-with-ML-Incubator-Project.git
 ```
+
+## Create Virtual Environment
+```console
+pip3 install virtualenv
+virtualenv --python=/usr/bin/python venv
+source ./venv/bin/activate
+```
+
 ## Keep Running Python Script
 ```console
 tmux new -s mywindow
