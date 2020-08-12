@@ -43,3 +43,8 @@ Once the new window starts, run your script. Once the script is running, you can
 ```console
 tmux a -t mywindow
 ```
+
+## Install Torch
+```console
+pip3 install torch==1.3.1+cpu torchvision==0.4.2+cpu -f https://download.pytorch.org/whl/torch_stable.html
+```
